@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                   // Modern JS output
+    "module": "ESNext",                   // Output as native ESM
+    "moduleResolution": "bundler",        // ESM-style module resolution
+    "lib": ["ES2020"],
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}
